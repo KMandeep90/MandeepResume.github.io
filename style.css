@@ -1,42 +1,65 @@
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  padding: 0;
+  background: #f0f0f0;
+  color: #333;
 }
 
 header {
   background: #0a3d62;
   color: white;
-  padding: 20px;
   text-align: center;
+  padding: 30px 20px;
 }
 
 nav a {
-  color: white;
   margin: 0 10px;
+  color: #ffffffcc;
   text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+.profile-img {
+  width: 120px;
+  border-radius: 50%;
+  margin: 10px auto;
 }
 
 section {
+  background: white;
+  margin: 20px auto;
   padding: 20px;
   max-width: 800px;
-  margin: auto;
-  background: white;
-  margin-top: 20px;
-  border-radius: 8px;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background: #0a3d62;
-  color: white;
+  border-radius: 10px;
 }
 
 form input, form textarea {
   width: 100%;
-  padding: 8px;
+  padding: 10px;
   margin: 10px 0;
+}
+
+button {
+  background: #0a3d62;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.social a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #0a3d62;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0a3d62;
+  color: white;
 }
