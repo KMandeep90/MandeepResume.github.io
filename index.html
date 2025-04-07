@@ -1,61 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mandeep Kaur - Resume</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
+    <img src="profile.jpg" alt="Profile Photo" class="profile-img" />
     <h1>Mandeep Kaur</h1>
     <p>Assistant Professor | Ph.D. in CSE</p>
     <nav>
-      <a href="index.html">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
+      <a href="resume.pdf" download>Download Resume</a>
     </nav>
   </header>
 
-  <section>
-    <h2>Career Objective</h2>
-    <p>To work in a challenging environment while being resourceful and innovative...</p>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Experienced academician in AI, ML, and Fog Computing with a passion for teaching and research.</p>
+  </section>
 
-    <h2>Professional Qualifications</h2>
+  <section id="projects">
+    <h2>Projects</h2>
     <ul>
-      <li>Ph.D. – Lovely Professional University, 2021</li>
-      <li>M.Tech – CSE, Doaba Group of Colleges, 2015</li>
-      <li>B.Tech – GGS CMT, 2011</li>
-      <!-- Add more as needed -->
+      <li><strong>Fog-Based Load Balancing:</strong> Research on energy-efficient load balancing techniques.</li>
+      <li><strong>Generative AI in Education:</strong> Contributions to AI curriculum transformation in higher education.</li>
+      <!-- Add more if needed -->
     </ul>
-
-    <h2>Skills</h2>
-    <ul>
-      <li>C/C++, Java, Python</li>
-      <li>HTML, CSS, JavaScript</li>
-      <li>MS Office</li>
-    </ul>
-
-    <h2>Work Experience</h2>
-    <ul>
-      <li>Assistant Professor – Chitkara University (2022–Present)</li>
-      <!-- Add others as needed -->
-    </ul>
-
-    <h2>Publications</h2>
-    <p>See full list on <a href="https://scholar.google.com/citations?user=v64uJOoAAAAJ" target="_blank">Google Scholar</a></p>
   </section>
 
   <section id="contact">
     <h2>Contact Me</h2>
     <form id="feedbackForm">
-      <input type="text" placeholder="Your Name" required><br>
-      <input type="email" placeholder="Your Email" required><br>
-      <textarea placeholder="Your Message" required></textarea><br>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
       <button type="submit">Submit</button>
     </form>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=v64uJOoAAAAJ" target="_blank">Google Scholar</a>
+    </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 Mandeep Kaur</p>
+    <p>© 2025 Mandeep Kaur</p>
   </footer>
 
   <script src="script.js"></script>
